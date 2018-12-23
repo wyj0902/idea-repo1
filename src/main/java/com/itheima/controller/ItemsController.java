@@ -19,6 +19,7 @@ public class ItemsController {
         Items items = itemsService.findById(1);
         model.addAttribute("item", items);
         System.out.println("gitgitgit");
+        System.out.println("又一次修改");
         return "itemDetail";
     }
 }
